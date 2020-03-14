@@ -20,6 +20,8 @@ public class Message {
     @JoinColumn(name = "user_id")
     private User author;
 
+    private String filename;
+
     //Еслт Entity, то обязательно должен быть конструктор без параметров
     public Message() {
     }
@@ -64,5 +66,13 @@ public class Message {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public String getFilename() {
+        return filename;
+    }
+
+    public void setFilename(String filename) {
+        this.filename = filename;
     }
 }
