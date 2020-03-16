@@ -11,7 +11,7 @@ import javax.persistence.*;
 public class Message {
     @Id //Идентификатор ключей
     @GeneratedValue(strategy= GenerationType.AUTO) //Способ генерации идентификатора
-    private Integer id;
+    private Long id;
 
     private String text;
     private String tag;
@@ -60,11 +60,11 @@ public class Message {
         this.tag = tag;
     }
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
