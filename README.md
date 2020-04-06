@@ -1,2 +1,2 @@
 # Sweater
-My first Spring project.
+    My first Spring project
