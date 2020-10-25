@@ -1,6 +1,5 @@
 # Sweater <br/>
 This application is blog with with the ability of registration users with specific roles. The code is written according to the [following guide](https://www.youtube.com/playlist?list=PLU2ftbIeotGoGSEUf54LQH-DgiQPF2XRO)   <br/>
-![shares](https://user-images.githubusercontent.com/54303323/97119312-62dd6180-1720-11eb-882e-0f8cc257f4b7.png)
 ## Usage
 1. Create *.properties* file in **resources/** folder with following fields (database and mail delivery validation):
 ```
